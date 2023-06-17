@@ -23,8 +23,8 @@ default: &default
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   database: <%= ENV["BUDGETAPP_DATABASE_NAME"] %>
-  username: <%= ENV["BUDGETAPP_DATABASE_USERNAME"] %>
-  password: <%= ENV["BUDGETAPP_DATABASE_PASSWORD"] %>
+  username: budget-user
+  password: budget-userbudget
 
 development:
   <<: *default
