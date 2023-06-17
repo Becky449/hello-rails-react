@@ -1,132 +1,79 @@
-<a name="readme-top"></a>
-
-<!-- TABLE OF CONTENTS -->
-
+# Hello-Rails-React
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
-<!-- PROJECT DESCRIPTION -->
+# 📖 Hello Rails React <a name="about-project"></a>
 
-#  <a name="about-project"></a>
+**Hello Rails React** is a project which using Ruby on Rails for back and and React for front end in one project. You can generate greeting messages randomly.
 
-> Describe your project in 1 or 2 sentences.
+## 🛠 Built With <a name="built-with"></a>
 
-**[Hello-Rails-React]**Ruby on Rails with React in one App. This app displays a random greeting on a button click
+### Tech Stack <a name="tech-stack"></a>
 
-## 🛠 Built With
-
-- Ruby
-- Ruby on Rails
-- Postgresql
-- React
-- WebPack
-- VScode
-  <a name="built-with"></a>
-
-### Tech Stack
-
-- Ruby
-- Ruby on Rails
-- Postgresql
-- React
-  <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-<details>
-  <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
   </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-
-<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[Display a greeting on the click of a button]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+-Creating API end point by Rails
+-Using API data and display in React 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-- A code editor ( VScode...).
+In order to run this project you need:
 
-### Setup
+- Ruby
+- Rails
+- React
 
-To setup the project locally: clone the repository using:
+### SetUp
 
+Clone this Repository to your desired folder:
+
+``` sh
+cd my-folder
+git clone https://github.com/otmanTR/hello-rails-react-.git
 ```
-git@github.com:Lancelot-SO/hello-rails-react.git
+### Install 
+Install this project with:
+ 
+``` sh
+bundle install
 ```
-
-### Install
-
-run: `rails server`
 
 ### Usage
-
-### Run tests
-
-run: rspec
-
-### Deployment
-
-login: `localhost:3000`
+To run the project, execute the following command:
+``` sh
+rails s
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
-
-## 👥 Authors <a name="authors"></a>
-
+## 👥 Authors <a name="author"></a>
 👤 **Rabecca Nabwire**
 
 - GitHub: [@githubhandle](https://github.com/Becky449)
@@ -135,52 +82,31 @@ login: `localhost:3000`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
-
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[Create Add Greetings]**
+- [ ] **[Connect API]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-CContributions, issues, and feature requests are welcome!
+Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/becky449/hello-rails-react/issues).
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-Give a ⭐️ if you like this project!.
+If you like this project consider giving it a star ⭐️.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-## Acknowledgments
-
-- Grateful to anyone whose code served as reference 
-- Grateful to anyone who inspired me to create this wonderful project
-
-<a name="acknowledgements"></a>
+I would like to thank Microverse for giving me the opportunity to work on this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
