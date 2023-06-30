@@ -56,7 +56,7 @@ Clone this Repository to your desired folder:
 
 ``` sh
 cd my-folder
-git clone https://github.com/otmanTR/hello-rails-react-.git
+git clone https://github.com/becky449/hello-rails-react-.git
 ```
 ### Install 
 Install this project with:
